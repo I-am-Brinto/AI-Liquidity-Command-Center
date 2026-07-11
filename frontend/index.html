@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>
+AI Liquidity Command Center
+</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<h1>
+AI Liquidity Command Center
+</h1>
+
+<p>
+Operational Intelligence Dashboard for Digital Finance Providers
+</p>
+
+</div>
+
+<div class="live-badge">
+
+<span class="status-dot"></span> AI Monitoring Active
+<span id="lastUpdate">
+Last Analysis: Just now
+</span>
+
+</div>
+
+
+<div class="summary">
+
+
+<div class="card">
+
+<h3>Total Transactions</h3>
+
+<h2 id="transactionCount">
+-
+</h2>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Total Cash Flow</h3>
+
+<h2 id="cashFlow">
+-
+</h2>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Overall Risk</h3>
+
+<h2 id="overallRisk">
+-
+</h2>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>System Status</h3>
+
+<h2 id="systemStatus">
+-
+</h2>
+
+</div>
+
+
+</div>
+
+
+
+
+<h2 class="section-title">
+Provider Intelligence
+</h2>
+
+
+<div id="providers" class="provider-container">
+
+</div>
+
+
+<h2 class="section-title">
+AI System Status
+</h2>
+
+
+<div id="systemStatusPanel" class="status-card">
+
+Loading system intelligence...
+
+</div>
+
+
+
+<h2 class="section-title">
+AI Executive Insight
+</h2>
+
+
+<div id="insight" class="insight-card">
+
+Loading AI analysis...
+
+</div>
+
+
+
+
+
+
+
+<h2 class="section-title">
+Liquidity Comparison
+</h2>
+
+
+<div id="comparison" class="comparison-card">
+
+</div>
+
+
+
+<h2 class="section-title">
+Live Scenario Simulator
+</h2>
+
+
+<div class="simulation-card">
+
+<select id="scenario">
+
+<option value="normal">
+Normal Operation
+</option>
+
+
+<option value="cash_out_spike">
+Cash-out Spike
+</option>
+
+
+<option value="liquidity_crisis">
+Liquidity Crisis
+</option>
+
+
+</select>
+
+
+<button onclick="runSimulation()">
+RUN SIMULATION
+</button>
+
+
+<div id="simulationResult">
+
+Select a scenario and run simulation
+
+</div>
+
+
+</div>
+
+
+
+<h2 class="section-title">
+AI Review Center
+</h2>
+
+
+<div id="alerts" class="alerts">
+
+</div>
+
+
+
+
+
+<script src="app.js"></script>
+
+
+</body>
+
+
+</html>
